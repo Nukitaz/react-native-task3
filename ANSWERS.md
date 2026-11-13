@@ -20,3 +20,4 @@
 
 7. **Write the three best practices from the Step 5 checklist in your own words and give an example of when a modal is *not* a good idea.**
    First, use modals sparingly and only for short, focused tasks rather than complex multi-step workflows. Second, keep the number of items inside a `ScrollView` small since it renders all children at once. Third, always wrap screens in `SafeAreaView` so content respects system bars and notches. A modal is **not** a good idea for displaying long forms, full articles, or multi-screen navigation flows that belong on a dedicated screen.
+   
